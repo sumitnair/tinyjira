@@ -18,7 +18,7 @@ import javax.validation.constraints.Size;
 public class Assignee {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	@Basic(optional = false)
 	@Column(name = "id", nullable = false)
 	private Long assigneeId;

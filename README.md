@@ -61,11 +61,11 @@ Code can be cloned from `https://github.com/sumitnair/tinyjira.git`
 
 You can build and run the application using ``mvn spring-boot:run`` on command line after installing of Java and Maven.
 
-Upon startup, application can be access via `http://localhost:8080`
+Upon startup, application can be access via `http://localhost:8080` , alternatively it can also be access via `https://tinyjira.herokuapp.com/` 
 
 ### Deployments ###
 
-This application is deployed using [Heroku](https://www.heroku.com).
+This application is deployed using [Heroku](https://www.heroku.com) on `https://tinyjira.herokuapp.com/`
 
 ### Known improvements to be done ###
 
